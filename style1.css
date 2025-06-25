@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    
+    height: 100vh;
+    background-image: url('Image.jpg');  /* your image path */
+    background-size: cover;      /* cover entire viewport */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* optional: fixed when scrolling */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* align text near top */
+    align-items: center;
+    padding-top: 40px;           /* space from top */
+    
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #ff7575;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.product-image {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.product-image:hover {
+    transform: scale(1.05);
+}
+
+.description-box {
+    border: 2px solid #ff7575;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ff7575;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.description-box h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.description-box p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+
+.product-container1 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #ff7575;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.product-image1 {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.product-image1:hover {
+    transform: scale(1.05);
+}
+
+.description-box1 {
+    border: 2px solid #ff7575;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ff7575;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.description-box1 h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.description-box1 p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.product-container2 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #ff7575;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.product-image3 {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.product-image3:hover {
+    transform: scale(1.05);
+}
+
+.description-box3 {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.description-box3 h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.description-box3p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.product-container3 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #ff7575;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.product-image3 {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.product-image3:hover {
+    transform: scale(1.05);
+}
+
+.description-box3 {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.description-box3 h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.description-box3 p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #555;
+}
